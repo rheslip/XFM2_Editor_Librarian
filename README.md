@@ -8,6 +8,8 @@ design and instructions for building the XFM2 are at Rene's website: https://www
 
 The editor was created using CTRLR https://ctrlr.org/
 
+Video demonstration of the XFM2 and the patch editor: https://www.youtube.com/watch?v=Ny7eByV2aGQ
+
 Many thanks to the authors of the DX7 and TG33 CTRLR panels - I learned a lot from their work and used quite a bit of their graphics and code. 
 I could not have achieved this without their efforts to guide me. I was still a helluva lot of work!
 
@@ -39,8 +41,10 @@ To save the current state of the editor to disk use "save"/"program to file"
 To load a patch from disk use "load"/"program from file". This will load the editor AND the XFM2 RAM with the patch.
 
 
-I wrote a utility "dx72xfm2" (can be found in this github repository) which converts DX7 patch banks (32 patches) to sysex files that can be loaded by the XFM2.
+I wrote a utility "dx72xfm2" which converts DX7 patch banks (32 patches) to sysex files that can be loaded by the XFM2.
 The converter is not perfect but most patches should be pretty close to the DX7 sounds. You will probably want to tweek them with the editor anyway!
+
+https://github.com/rheslip/dx72xfm2
 
 
 Format of the .syx files:
@@ -50,6 +54,11 @@ Format of the .syx files:
 512 parameters stored in MSB LSB midi format. range of most XFM2 parameters is 0-255
 
 1 byte trailer 0xf7
+
+
+
+Other useful XFM2 resources: https://github.com/xerhard/XFM2-resources
+
 
 
 Rich Heslip rheslip@hotmail.com
