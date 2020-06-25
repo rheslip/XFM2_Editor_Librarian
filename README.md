@@ -6,15 +6,23 @@ Beta 1 release June 12 2020
 This is an editor/librarian for the XFM2 FPGA synthesizer designed by Rene Ceballos. Details of the 
 design and instructions for building the XFM2 are at Rene's website: https://www.futur3soundz.com/
 
-The editor was created using CTRLR https://ctrlr.org/
+
+Other useful XFM2 resources: https://github.com/xerhard/XFM2-resources
+
 
 Video demonstration of the XFM2 and the patch editor: https://www.youtube.com/watch?v=Ny7eByV2aGQ
+
+
+The XFM2 editor was created using CTRLR https://ctrlr.org/
 
 Many thanks to the authors of the DX7 and TG33 CTRLR panels - I learned a lot from their work and used quite a bit of their graphics and code. 
 I could not have achieved this without their efforts to guide me. I was still a helluva lot of work!
 
 You will need to install CTRLR to use this editor a.k.a. a CTRLR panel. I recommend version
 5.3.201 which is the current stable release. I had lots of issues with later releases of CTRLR.
+
+The editor uses MIDI sysex messages only and does not use the XFM2 USB connection - but you will still need USB to power the XFM2.
+You will need a MIDI adapter for your computer and you will have to build the XFM2 with MIDI in and MIDI out connectors.
 
 The panel should be self explanatory if you have read Rene's documentation but managing patches 
 deserves some explanation. The "Patch" subpanel on the global controls tab is where you load and save patches. 
@@ -55,9 +63,6 @@ Format of the .syx files:
 
 1 byte trailer 0xf7
 
-
-
-Other useful XFM2 resources: https://github.com/xerhard/XFM2-resources
 
 
 
