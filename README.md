@@ -1,6 +1,6 @@
 Patch Editor/Librarian the XFM2 FM synth
 
-Beta 1 release June 12 2020
+Beta 2 release March 10 2021 - fixed bug in "save patch to XFM2 memory"
 
 
 This is an editor/librarian for the XFM2 FPGA synthesizer designed by Rene Ceballos. Details of the 
