@@ -24,6 +24,8 @@ You will need to install CTRLR to use this editor a.k.a. a CTRLR panel. I recomm
 The editor uses MIDI sysex messages only and does not use the XFM2 USB connection - but you will still need USB to power the XFM2.
 You will need a MIDI adapter for your computer and you will have to build the XFM2 with MIDI in and MIDI out connectors.
 
+** I recommend you wire the MIDI out ground to actual ground, not pin 28 as shown on Rene's web site. A couple of users have had problems because of that. 
+
 The panel should be self explanatory if you have read Rene's documentation but managing patches 
 deserves some explanation. The "Patch" subpanel on the global controls tab is where you load and save patches. 
 There are four memories we have to manage:
